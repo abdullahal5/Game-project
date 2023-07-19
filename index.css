@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Work+Sans:wght@500&display=swap');
+
+/* header-section start from here */
+body{
+  /* width: 1200px; */
+  margin: 0 auto;
+  border: 1px solid red;
+  
+}
+.header-text{
+  color: #FF42A5;
+}
+.header-logo{
+  display: flex;
+  width: 50%;
+  align-items: center;
+  
+}
+.header-logo-text{
+  padding-left: 10px;
+}
+.logo{
+  object-fit: cover;
+}
+nav{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding-left: 140px;
+}
+.nav-items{
+  width: 50%;
+
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 140px;
+}
+a{
+  text-decoration: none;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #3C354F;
+}
+.follow{
+  border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 10px ;
+}
+.banner-p{
+color: #534C64;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.banner-text-1{
+color: #0B0223;
+font-size: 30px;
+font-weight: 600;
+}
+.banner-text-2{
+font-size: 65px;
+font-style: normal;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.btn-1{
+padding: 20px 40px;
+gap: 10px;
+border-radius: 45px;
+color: white;
+background-color: #F144AE;
+border: none;
+margin-right: 20px;
+}
+.btn-2{
+padding: 20px 35px;
+gap: 10px;
+border-radius: 45px;
+color: white;
+background-color: #4EC5F7;
+border: none;
+}
+
+.banner-text{
+  width: 50%;
+  margin-left: 10%;
+  background-image: url(./images/Group\ 14.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background:  linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+  
+}
+.img{
+  width: 100%;
+}
+.banner-img{
+width: 50%;
+margin-right: 10%;
+}
+.banner-container{
+  display: flex;
+  justify-content: space-around
+
+}
+
+/* header-section end here*/
+
+/* card-section start from here */
+
+
+
+
+
+
+/* card-section end here */
