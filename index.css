@@ -211,7 +211,10 @@ margin-top: -160px;
 
 @media screen and (max-width:576px) {
   .header-logo{
-    
+    margin:  auto;
+  }
+  body{
+    max-width: auto;
   }
   .nav-items, nav{
    flex-direction: column;
@@ -225,11 +228,12 @@ margin-top: -160px;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    
   }
   .banner-img{
     width: 100%;
     background-color: white;
-    margin: 10px 0;
+    margin: 10px auto;
     flex-direction: column;
    
    
@@ -240,24 +244,36 @@ margin-top: -160px;
     margin: 0px;
     flex-direction: column;
     text-align: center;
+    margin: 0 auto;
    
    
   }
   body {
     width: 100%;
-    margin: 0px;
+    
   }
   .card-text{
 flex-direction: column;
   }
   .games-card{
     flex-direction: column;
-    padding-left: 100px;
+    
     width: 100%;
   }
+  .card-1{
+    margin: 0px auto;
+  }
+  .card-2{
+    margin: 0 auto;
+  }
+  .card-3{
+    margin: 0 auto;
+  }
+  .card-4{
+    margin: 0 auto;
+  }
   .ff{
-    width: 100%;
-    text-align: center;
+
 
   }
   .div-container{
