@@ -5,7 +5,11 @@ main{
 
   max-width: 1440px;
   margin: 0 auto;
+ border: 1px solid red;
   
+}
+header{
+  padding: 50px 240px;
 }
 .header-text{
   color: #FF42A5;
@@ -14,6 +18,7 @@ main{
   display: flex;
   width: 50%;
   align-items: center;
+  text-align: center;
   
 }
 .header-logo-text{
@@ -28,7 +33,6 @@ nav{
   align-items: center;
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  padding-left: 140px;
 }
 .nav-items{
   width: 50%;
@@ -38,7 +42,6 @@ nav{
   display: flex;
   align-items: center;
   justify-content: end;
-  padding-right: 140px;
 }
 a{
   text-decoration: none;
@@ -92,7 +95,6 @@ border: none;
 
 .banner-text{
   width: 50%;
-  margin-left: 140px;
   background-image: url(./images/Group\ 14.png);
   background-position: center;
   background-size: cover;
@@ -105,7 +107,7 @@ border: none;
 }
 .banner-img{
 width: 50%;
-margin-right: 140px;
+
 }
 .banner-container{
   display: flex;
@@ -169,7 +171,7 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 .play-section{
-  height: 70vh;
+  
 }
 .play-text{
   width: 50%;
@@ -212,7 +214,14 @@ margin-top: -160px;
 
 @media screen and (max-width:576px) {
   .header-logo{
-    margin:  auto;
+    margin: 0  auto;
+    text-align: center;
+  }
+  header{
+    padding: 0px;
+  }
+  main{
+    width: 100%;
   }
   body{
     max-width: auto;
@@ -221,7 +230,7 @@ margin-top: -160px;
    flex-direction: column;
    text-align: center;
    margin: 0 auto;
-   gap: 35px
+   gap: 10px
    ;
   }
   .banner-container{
@@ -242,7 +251,6 @@ margin-top: -160px;
   }
   .banner-text{
     width: 100%;
-    margin: 0px;
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
@@ -261,9 +269,19 @@ flex-direction: column;
     
     width: 100%;
   }
-  .games-card{
-    grid-template-columns: repeat(1, 1fr);
+  .card-1{
+    margin: 0px auto;
   }
+  .card-2{
+    margin: 0 auto;
+  }
+  .card-3{
+    margin: 0 auto;
+  }
+  .card-4{
+    margin: 0 auto;
+  }
+  
   .ff{
 
 
