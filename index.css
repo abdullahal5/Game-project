@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Work+Sans:wght@500&display=swap');
 
 /* header-section start from here */
-body{
+main{
 
-  
+  max-width: 1440px;
+  margin: 0 auto;
   
 }
 .header-text{
@@ -260,17 +261,8 @@ flex-direction: column;
     
     width: 100%;
   }
-  .card-1{
-    margin: 0px auto;
-  }
-  .card-2{
-    margin: 0 auto;
-  }
-  .card-3{
-    margin: 0 auto;
-  }
-  .card-4{
-    margin: 0 auto;
+  .games-card{
+    grid-template-columns: repeat(1, 1fr);
   }
   .ff{
 
